@@ -158,6 +158,7 @@ while running:
     clouds.update()
     # Fill the screen with black
     screen.fill((0, 0, 0))
+    screen.fill((135, 206, 250))
 
     # Draw all sprites
     for entity in all_sprites:
