@@ -2,6 +2,7 @@
 *A game built entirely with python and pygame!*
 
 ## Demo
+![demo](demo.gif)
 
 ## How to Play
 To play Burger Invasion, go to your terminal and type:
