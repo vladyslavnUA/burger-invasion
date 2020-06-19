@@ -14,3 +14,5 @@ To play Burger Invasion, go to your terminal and type:
 ```- pip3 install pygame```
 <br />
 ```- python3 burger.py```
+
+**Enjoy!**
