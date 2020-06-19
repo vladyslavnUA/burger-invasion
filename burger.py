@@ -10,19 +10,15 @@ pygame.init()
 screen = pygame.display.set_mode((800, 500))
 
 # Background
-background = pygame.image.load('background.png')
-
-# Sound
-# mixer.music.load("background.wav")
-# mixer.music.play(-1)
+background = pygame.image.load('images/background.png')
 
 # Caption and Icon
 pygame.display.set_caption("Burger Invasion")
-icon = pygame.image.load('burger.png')
+icon = pygame.image.load('images/burger.png')
 pygame.display.set_icon(icon)
 
 # Player
-playerImg = pygame.image.load('kid.png')
+playerImg = pygame.image.load('images/kid.png')
 playerX = 370
 playerY = 400
 playerX_change = 0
@@ -36,7 +32,7 @@ enemyY_change = []
 num_of_enemies = 8
 
 for i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('burger.png'))
+    enemyImg.append(pygame.image.load('images/burger.png'))
     enemyX.append(random.randint(0, 736))
     enemyY.append(random.randint(50, 150))
     enemyX_change.append(4)
@@ -47,7 +43,7 @@ for i in range(num_of_enemies):
 # Ready - You can't see the bullet on the screen
 # Fire - The bullet is currently moving
 
-bulletImg = pygame.image.load('fork.png')
+bulletImg = pygame.image.load('images/fork.png')
 bulletX = 0
 bulletY = 400
 bulletX_change = 0
